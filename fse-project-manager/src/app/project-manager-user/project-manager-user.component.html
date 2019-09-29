@@ -4,7 +4,7 @@
         <label for="firstName">First Name:</label>  
         <input formControlName="firstName" placeholder="First Name" name="firstName" class="form-control" id="firstName">  
         <div class="alert  alert-danger" *ngIf="addForm.get('firstName').hasError('required') && addForm.get('firstName').touched">  
-          First Name is required.  
+          First name is required.  
         </div>  
       </div>  
     
@@ -12,7 +12,7 @@
         <label for="lastName">Last Name:</label>  
         <input formControlName="lastName" placeholder="Last Name" name="lastName" class="form-control" id="lastName">  
         <div class="alert  alert-danger" *ngIf="addForm.get('lastName').hasError('required') && addForm.get('lastName').touched">
-          Last Name is required.
+          Last name is required.
         </div>  
       </div>
       <div class="form-group">  
