@@ -1,0 +1,23 @@
+Started by GitHub push by svmmahesh
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\fsefinalsproject2
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/svmmahesh/FSEFinals.git
+ > git.exe init C:\Program Files (x86)\Jenkins\workspace\fsefinalsproject2 # timeout=10
+Fetching upstream changes from https://github.com/svmmahesh/FSEFinals.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress -- https://github.com/svmmahesh/FSEFinals.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe config remote.origin.url https://github.com/svmmahesh/FSEFinals.git # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/svmmahesh/FSEFinals.git # timeout=10
+Fetching upstream changes from https://github.com/svmmahesh/FSEFinals.git
+ > git.exe fetch --tags --progress -- https://github.com/svmmahesh/FSEFinals.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 252f0b8e00ff66cee65991f002af1547c9c73103 (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 252f0b8e00ff66cee65991f002af1547c9c73103
+Commit message: "Update README.md"
+First time build. Skipping changelog.
+Finished: SUCCESS

@@ -1,0 +1,18 @@
+Started by GitHub push by svmmahesh
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\fsefinalsproject2
+No credentials specified
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/svmmahesh/FSEFinals.git # timeout=10
+Fetching upstream changes from https://github.com/svmmahesh/FSEFinals.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --progress -- https://github.com/svmmahesh/FSEFinals.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision 1c32451dfd5220e4e90df1df5cc2a61c6013ef2c (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f 1c32451dfd5220e4e90df1df5cc2a61c6013ef2c
+Commit message: "list html update"
+ > git.exe rev-list --no-walk fecefb88645656c9dbd3093995fab338f688d3f4 # timeout=10
+Finished: SUCCESS
