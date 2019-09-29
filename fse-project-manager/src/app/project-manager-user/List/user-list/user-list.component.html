@@ -1,6 +1,5 @@
 <div class="col-md-12">  
     <br/>  
-    <br/>  
     <ng-select2 [ngModel]="selectedUser" [data]="searchUsers" [placeholder]="'Search...'" [width]="300" (ngModelChange)="onUserSelect($event)" >	
 </ng-select2>
   Sort:<button class="btn-filter" (click)="onSortF()">First Name</button ><button class="btn-filter" (click)="onSortL()">Last Name</button><button class="btn-filter" (click)="onSortID()">Id</button>
