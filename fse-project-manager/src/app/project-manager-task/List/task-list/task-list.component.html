@@ -1,0 +1,33 @@
+<div class="col-md-12">
+  <br/>  
+  <br/> 
+  <ng-select2 [data]="searchProjects" [placeholder]="'Search...'" [width]="300">	
+  </ng-select2> 
+    Sort:<button class="btn-filter">Start Date</button ><button class="btn-filter">End Date</button><button class="btn-filter">Priority</button><button class="btn-filter">Completed</button>   
+  <div class="col-md-12 table-responsive table-container">  
+    <table class="table">  
+      <thead>  
+        <tr>  
+          <th>Task</th>  
+          <th>Parent</th>  
+          <th>Priority</th>
+          <th>Start</th>
+          <th>End</th>          
+        </tr>  
+      </thead>  
+      <tbody>  
+        <tr *ngFor="let task of tasks">  
+          <td>{{task.taskName}}</td>  
+          <td>{{task.parentTaskName}}</td> 
+          <td>{{task.priority}}</td> 
+          <td>{{task.startDate}}</td> 
+          <td>{{task.endDate}}</td>           
+          <td>  
+            <button (click)="editTask(task)" style="margin-left: 20px;" class="btn btn-info">Edit</button>  
+            <button (click)="deleteItem(item)" class="btn btn-info">Delete</button>            
+          </td>  
+        </tr>  
+      </tbody>  
+    </table>  
+  </div>  
+</div>

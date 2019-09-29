@@ -1,0 +1,5 @@
+C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.Shared\bin\Debug\ProjectManager.Shared.dll
+C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.Shared\bin\Debug\ProjectManager.Shared.pdb
+C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.Shared\obj\Debug\ProjectManager.Shared.dll
+C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.Shared\obj\Debug\ProjectManager.Shared.pdb
+C:\Reshma\FinalCertification\LatestFSEFinals\ProjectManagerWebAPI\ProjectManager.Shared\obj\Debug\ProjectManager.Shared.csprojResolveAssemblyReference.cache
