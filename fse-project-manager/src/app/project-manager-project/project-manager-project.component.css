@@ -6,4 +6,5 @@
 .checklabel{
     line-height:3;
 }
-form{margin-top:100px;  }
+form{margin-top:100px;margin:0 auto; padding:15px 15px 55px 15px;border:1px solid #ccc;border-radius:10px;}
+.add-project{margin:0 auto;float:none;  }
